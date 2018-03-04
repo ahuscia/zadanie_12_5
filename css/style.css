@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Mina');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mina', sans-serif;
+    background: #55ACEE;
+    color: white;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: #55ACEE;
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.tweet{
+    background-color: #55ACEE;
+    border: 1px solid white;
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 0 10px;
+    
+}
